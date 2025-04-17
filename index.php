@@ -1,4 +1,9 @@
 <?php
+require_once('./models/interfaces/InterfaceAuthor.php');
+require_once('./models/interfaces/InterfaceBook.php');  
+require_once('./models/interfaces/InterfaceBorrower.php');
+require_once('./models/interfaces/InterfaceLoan.php');
+
 require_once('./models/classes/Author.php');
 require_once('./models/classes/Book.php');
 require_once('./models/classes/Borrower.php');
